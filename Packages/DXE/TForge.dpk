@@ -1,0 +1,69 @@
+package TForge;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl;
+
+contains
+  arrProcs in '..\..\Engine\Forge\arrProcs.pas',
+  tfAlgServ in '..\..\Engine\Forge\tfAlgServ.pas',
+  tfByteVectors in '..\..\Engine\Forge\tfByteVectors.pas',
+  tfWindows in '..\..\Engine\OSes\tfWindows.pas',
+  tfMontMath in '..\..\Engine\Forge\tfMontMath.pas',
+  tfNumbers in '..\..\Engine\Forge\tfNumbers.pas',
+  tfRandEngines in '..\..\Engine\Forge\tfRandEngines.pas',
+  tfRecords in '..\..\Engine\Forge\tfRecords.pas',
+  tfCRC32 in '..\..\Engine\Hashes\tfCRC32.pas',
+  tfHashServ in '..\..\Engine\Hashes\tfHashServ.pas',
+  tfHMAC in '..\..\Engine\Hashes\tfHMAC.pas',
+  tfJenkinsOne in '..\..\Engine\Hashes\tfJenkinsOne.pas',
+  tfMD5 in '..\..\Engine\Hashes\tfMD5.pas',
+  tfSHA1 in '..\..\Engine\Hashes\tfSHA1.pas',
+  tfSHA256 in '..\..\Engine\Hashes\tfSHA256.pas',
+  tfSHA512 in '..\..\Engine\Hashes\tfSHA512.pas',
+  tfAES in '..\..\Engine\Ciphers\tfAES.pas',
+  tfBaseCiphers in '..\..\Engine\Ciphers\tfBaseCiphers.pas',
+  tfCipherServ in '..\..\Engine\Ciphers\tfCipherServ.pas',
+  tfDES in '..\..\Engine\Ciphers\tfDES.pas',
+  tfKeyStreams in '..\..\Engine\Ciphers\tfKeyStreams.pas',
+  tfRC4 in '..\..\Engine\Ciphers\tfRC4.pas',
+  tfRC5 in '..\..\Engine\Ciphers\tfRC5.pas',
+  tfSalsa20 in '..\..\Engine\Ciphers\tfSalsa20.pas',
+  tfLimbs in '..\..\Shared\tfLimbs.pas',
+  tfTypes in '..\..\Shared\tfTypes.pas',
+  tfUtils in '..\..\Shared\tfUtils.pas',
+  tfBytes in '..\..\User\tfBytes.pas',
+  tfCiphers in '..\..\User\tfCiphers.pas',
+  tfConsts in '..\..\User\tfConsts.pas',
+  tfCRCs in '..\..\User\tfCRCs.pas',
+  tfExceptions in '..\..\User\tfExceptions.pas',
+  tfGNumerics in '..\..\User\tfGNumerics.pas',
+  tfHashes in '..\..\User\tfHashes.pas',
+  tfNumerics in '..\..\User\tfNumerics.pas',
+  tfRandoms in '..\..\User\tfRandoms.pas',
+  tfStubOS in '..\..\Engine\OSes\tfStubOS.pas';
+
+end.

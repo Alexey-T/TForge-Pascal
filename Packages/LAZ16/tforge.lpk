@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="tforge"/>
+    <Type Value="RunTimeOnly"/>
+    <AutoUpdate Value="Manually"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="..\..\Include"/>
+        <OtherUnitFiles Value="..\..\Shared;..\..\Engine\Forge;..\..\Engine\Hashes;..\..\Engine\Ciphers;..\..\Engine\OSes;..\..\User"/>
+        <UnitOutputDirectory Value="C:\bin\FPC\TForge\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="37">
+      <Item1>
+        <Filename Value="..\..\Shared\tfLimbs.pas"/>
+        <UnitName Value="tfLimbs"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\..\Shared\tfTypes.pas"/>
+        <UnitName Value="tfTypes"/>
+      </Item2>
+      <Item3>
+        <Filename Value="..\..\Shared\tfUtils.pas"/>
+        <UnitName Value="tfUtils"/>
+      </Item3>
+      <Item4>
+        <Filename Value="..\..\Engine\Forge\arrProcs.pas"/>
+        <UnitName Value="arrProcs"/>
+      </Item4>
+      <Item5>
+        <Filename Value="..\..\Engine\Forge\tfAlgServ.pas"/>
+        <UnitName Value="tfAlgServ"/>
+      </Item5>
+      <Item6>
+        <Filename Value="..\..\Engine\Forge\tfByteVectors.pas"/>
+        <UnitName Value="tfByteVectors"/>
+      </Item6>
+      <Item7>
+        <Filename Value="..\..\Engine\Forge\tfMontMath.pas"/>
+        <UnitName Value="tfMontMath"/>
+      </Item7>
+      <Item8>
+        <Filename Value="..\..\Engine\Forge\tfNumbers.pas"/>
+        <UnitName Value="tfNumbers"/>
+      </Item8>
+      <Item9>
+        <Filename Value="..\..\Engine\Forge\tfRandEngines.pas"/>
+        <UnitName Value="tfRandEngines"/>
+      </Item9>
+      <Item10>
+        <Filename Value="..\..\Engine\Forge\tfRecords.pas"/>
+        <UnitName Value="tfRecords"/>
+      </Item10>
+      <Item11>
+        <Filename Value="..\..\Engine\Hashes\tfCRC32.pas"/>
+        <UnitName Value="tfCRC32"/>
+      </Item11>
+      <Item12>
+        <Filename Value="..\..\Engine\Hashes\tfHashServ.pas"/>
+        <UnitName Value="tfHashServ"/>
+      </Item12>
+      <Item13>
+        <Filename Value="..\..\Engine\Hashes\tfHMAC.pas"/>
+        <UnitName Value="tfHMAC"/>
+      </Item13>
+      <Item14>
+        <Filename Value="..\..\Engine\Hashes\tfJenkinsOne.pas"/>
+        <UnitName Value="tfJenkinsOne"/>
+      </Item14>
+      <Item15>
+        <Filename Value="..\..\Engine\Hashes\tfMD5.pas"/>
+        <UnitName Value="tfMD5"/>
+      </Item15>
+      <Item16>
+        <Filename Value="..\..\Engine\Hashes\tfSHA1.pas"/>
+        <UnitName Value="tfSHA1"/>
+      </Item16>
+      <Item17>
+        <Filename Value="..\..\Engine\Hashes\tfSHA256.pas"/>
+        <UnitName Value="tfSHA256"/>
+      </Item17>
+      <Item18>
+        <Filename Value="..\..\Engine\Hashes\tfSHA512.pas"/>
+        <UnitName Value="tfSHA512"/>
+      </Item18>
+      <Item19>
+        <Filename Value="..\..\Engine\Ciphers\DES_SPBoxes.inc"/>
+        <Type Value="Include"/>
+      </Item19>
+      <Item20>
+        <Filename Value="..\..\Engine\Ciphers\tfAES.pas"/>
+        <UnitName Value="tfAES"/>
+      </Item20>
+      <Item21>
+        <Filename Value="..\..\Engine\Ciphers\tfBaseCiphers.pas"/>
+        <UnitName Value="tfBaseCiphers"/>
+      </Item21>
+      <Item22>
+        <Filename Value="..\..\Engine\Ciphers\tfCipherServ.pas"/>
+        <UnitName Value="tfCipherServ"/>
+      </Item22>
+      <Item23>
+        <Filename Value="..\..\Engine\Ciphers\tfDES.pas"/>
+        <UnitName Value="tfDES"/>
+      </Item23>
+      <Item24>
+        <Filename Value="..\..\Engine\Ciphers\tfKeyStreams.pas"/>
+        <UnitName Value="tfKeyStreams"/>
+      </Item24>
+      <Item25>
+        <Filename Value="..\..\Engine\Ciphers\tfRC4.pas"/>
+        <UnitName Value="tfRC4"/>
+      </Item25>
+      <Item26>
+        <Filename Value="..\..\Engine\Ciphers\tfRC5.pas"/>
+        <UnitName Value="tfRC5"/>
+      </Item26>
+      <Item27>
+        <Filename Value="..\..\Engine\Ciphers\tfSalsa20.pas"/>
+        <UnitName Value="tfSalsa20"/>
+      </Item27>
+      <Item28>
+        <Filename Value="..\..\Engine\OSes\tfStubOS.pas"/>
+        <UnitName Value="tfStubOS"/>
+      </Item28>
+      <Item29>
+        <Filename Value="..\..\Engine\OSes\tfWindows.pas"/>
+        <UnitName Value="tfWindows"/>
+      </Item29>
+      <Item30>
+        <Filename Value="..\..\User\tfBytes.pas"/>
+        <UnitName Value="tfBytes"/>
+      </Item30>
+      <Item31>
+        <Filename Value="..\..\User\tfCiphers.pas"/>
+        <UnitName Value="tfCiphers"/>
+      </Item31>
+      <Item32>
+        <Filename Value="..\..\User\tfConsts.pas"/>
+        <UnitName Value="tfConsts"/>
+      </Item32>
+      <Item33>
+        <Filename Value="..\..\User\tfCRCs.pas"/>
+        <UnitName Value="tfCRCs"/>
+      </Item33>
+      <Item34>
+        <Filename Value="..\..\User\tfExceptions.pas"/>
+        <UnitName Value="tfExceptions"/>
+      </Item34>
+      <Item35>
+        <Filename Value="..\..\User\tfHashes.pas"/>
+        <UnitName Value="tfHashes"/>
+      </Item35>
+      <Item36>
+        <Filename Value="..\..\User\tfNumerics.pas"/>
+        <UnitName Value="tfNumerics"/>
+      </Item36>
+      <Item37>
+        <Filename Value="..\..\User\tfRandoms.pas"/>
+        <UnitName Value="tfRandoms"/>
+      </Item37>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
